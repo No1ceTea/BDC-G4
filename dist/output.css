@@ -2073,10 +2073,6 @@ html {
   margin-top: 1.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -2261,11 +2257,6 @@ html {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pt-8 {
