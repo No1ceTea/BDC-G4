@@ -4,21 +4,21 @@
 
 @keyframes showTopText {
   0% {
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(9%, 100%, 0);
   }
   40%, 60% {
-    transform: translate3d(0, 50%, 0);
+    transform: translate3d(9%, 50%, 0);
   }
   100% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(9%, 0, 0);
   }
 }
 @keyframes showBottomText {
   0% {
-    transform: translate3d(0, -100%, 0);
+    transform: translate3d(4%, -100%, 0);
   }
   100% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(4%, 0, 0);
   }
 }
 .animated-title {
@@ -26,7 +26,7 @@
   height: 90vmin;
   left: 50%;
   position: absolute;
-  top: 34%;
+  top: 45%;
   transform: translate(-50%, -50%);
   width: 60vmin;
 }
@@ -57,7 +57,7 @@
   color: #000000;
 }
 .animated-title > div.text-top div span:first-child {
-  color: #fff;
+  color: #000000;
 }
 .animated-title > div.text-bottom {
   bottom: 0;

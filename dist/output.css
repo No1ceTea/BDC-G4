@@ -2061,6 +2061,10 @@ html {
   margin-top: 0.75rem;
 }
 
+.mt-60 {
+  margin-top: 15rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -2259,6 +2263,11 @@ html {
   padding-bottom: 3rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -2342,25 +2351,25 @@ html {
 
 @keyframes showTopText {
   0% {
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(9%, 100%, 0);
   }
 
   40%, 60% {
-    transform: translate3d(0, 50%, 0);
+    transform: translate3d(9%, 50%, 0);
   }
 
   100% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(9%, 0, 0);
   }
 }
 
 @keyframes showBottomText {
   0% {
-    transform: translate3d(0, -100%, 0);
+    transform: translate3d(4%, -100%, 0);
   }
 
   100% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(4%, 0, 0);
   }
 }
 
@@ -2369,7 +2378,7 @@ html {
   height: 90vmin;
   left: 50%;
   position: absolute;
-  top: 34%;
+  top: 45%;
   transform: translate(-50%, -50%);
   width: 60vmin;
 }
@@ -2406,7 +2415,7 @@ html {
 }
 
 .animated-title > div.text-top div span:first-child {
-  color: #fff;
+  color: #000000;
 }
 
 .animated-title > div.text-bottom {
