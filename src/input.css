@@ -6,7 +6,8 @@
   0% {
     transform: translate3d(9%, 100%, 0);
   }
-  40%, 60% {
+  40%,
+  60% {
     transform: translate3d(9%, 50%, 0);
   }
   100% {
@@ -70,4 +71,3 @@
   top: 0;
   transform: translate(0, -100%);
 }
-
