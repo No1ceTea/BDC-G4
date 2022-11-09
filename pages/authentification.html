@@ -70,24 +70,27 @@
         </div>
         <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div class="card-body">
-            <div class="form-control">
-              <label class="label">
-                <span class="label-text font-fredoka">Email</span>
-              </label>
-              <input type="text" placeholder="email" class="input input-bordered font-rubik" />
-            </div>
-            <div class="form-control">
-              <label class="label">
-                <span class="label-text font-fredoka">Mot de passe</span>
-              </label>
-              <input type="text" placeholder="mot de passe" class="input input-bordered font-rubik" />
-              <label class="label">
-                <a href="#" class="label-text-alt link link-hover font-fredoka">Mot de passe oublié ?</a>
-              </label>
-            </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-primary font-fredoka">Connexion</button>
-            </div>
+            <form action="#" method="POST">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-fredoka">Email</span>
+                </label>
+                <input type="text" placeholder="email" class="input input-bordered font-rubik" required/>
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-fredoka">Mot de passe</span>
+                </label>
+                <input type="password" placeholder="mot de passe" class="input input-bordered font-rubik" required/>
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover font-fredoka">Mot de passe oublié ?</a>
+                </label>
+              </div>
+              <div class="form-control mt-6">
+                <input class="btn btn-primary font-fredoka" type="submit" value="Connexion">
+              </div>
+            </form>
+            
             <div class="pt-8">
               <a href=""><span class="label-text font-fredoka">Nouveau client ? S'inscrire <svg version="1.1"
                     id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
