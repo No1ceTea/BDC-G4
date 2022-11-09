@@ -1,6 +1,6 @@
 # Website-BDC-G4
 
-To install the project and work on it, follow all the step :
+After clone the project, to work on it, follow all the step :
 
 1. npm install -D tailwindcss
 
