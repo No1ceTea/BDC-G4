@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--=============== CSS ===============-->
-  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="stylesheet" href="../dist/output.css">
 
   <!--=============== FONT ===============-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
   <!--=============== ??? ===============-->
 
   <!--=============== TITLE ===============-->
-  <link rel="icon" href="./img/YKNoText.png" />
+  <link rel="icon" href="../img/YKNoText.png" />
   <title>YourKnoledge - Home</title>
 </head>
 
@@ -53,51 +53,24 @@
         </ul>
       </div>
       <div class="navbar-end">
-        <a href="../pages/recherche.html"><button class="btn btn-primary flex font-fredoka">Rechercher</button></a>
+        <a href="./recherche.html"><button class="btn btn-primary flex font-fredoka">Rechercher</button></a>
       </div>
     </div>
   </header>
+
   <!--=============== MAIN ===============-->
-  <section>
-    <div class="hero min-h-screen" style="background-color: #46a7d6;">
-      <div class="hero-content flex-col lg:flex-row-reverse">
-        <div class="text-center lg:text-left">
-          <h1 class="text-5xl font-fredoka">Créer votre propre fiche</h1>
-        </div>
-        <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <div class="card-body">
-            <form action="#" method="POST">
-              <div class="form-control">
-                <label class="label">
-                  <span class="label-text font-fredoka">Titre</span>
-                </label>
-                <input type="text" placeholder="Titre de la fiche" class="input input-bordered" />
-              </div>
-              <div class="form-control">
-                <label class="label">
-                  <span class="label-text font-fredoka">Votre problème</span>
-                </label>
-                <input type="text" placeholder="Votre problème" class="input input-bordered" />
-              </div>
-              <br>
-              <select class="select w-full max-w-xs">
-                <option disabled selected>Catégorie</option>
-                <option value="c1">c1</option>
-                <option value="c2">c2</option>
-                <option value="c3">c3</option>
-                <option value="c4">c4</option>
-                <option value="c5">c5</option>
-              </select>
-              <a href="#">proposer une Catégorie ?</a>
-              <div class="form-control mt-6">
-                <input class="btn btn-primary" type="submit" value="Créer">
-              </div>
-            </form>
-          </div>
-        </div>
+  <section class="flex items-center h-full p-16 dark: bg-gray-900 dark: text-gray-100">
+    <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+      <div class="max-w-md text-center">
+        <h2 class="mb-8 font-fredoka text-9xl dark:text-gray-600">
+          <span class="sr-only">Erreur</span>404
+        </h2>
+        <p class="text-2xl font-rubik md:text-3xl">Nous sommes désolés, la page que vous avez demandée n'existe pas</p>
+        <p class="mt-4 mb-8 darl:text-gray-400">Essayez de faire vos recherche depuis la page d'accueil</p>
+        <a href="../index.html"><button class="btn btn-primary font-fredoka">Page d'accueil</button></a>
       </div>
-    </div>
   </section>
+
   <!--=============== FOOTER ===============-->
   <footer class="footer p-10 bg-base-100 text-base-content">
     <div>

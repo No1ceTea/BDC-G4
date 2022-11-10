@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--=============== CSS ===============-->
-  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="stylesheet" href="./dist/output.css">
 
   <!--=============== FONT ===============-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,15 +15,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Rubik:wght@500&display=swap"
     rel="stylesheet">
 
-  <link rel="preconnect" href="https://f    onts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Rubik&display=swap" rel="stylesheet">
 
   <!--=============== ??? ===============-->
 
+
   <!--=============== TITLE ===============-->
-  <link rel="icon" href="../img/YKNoText.png" />
-  <title>YourKnoledge - Home</title>
+  <link rel="icon" href="./img/YKNoText.png" />
+  <title>YourKnowledge - Home</title>
 </head>
 
 <body>
@@ -43,8 +44,8 @@
             <li><a class="font-fredoka">Item 3</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl" href="../index.html"><img class="object-contain w-44"
-            src="../img/YKTextBlack.png" alt="icon"></a>
+        <a class="btn btn-ghost normal-case text-xl" href="./index.html"><img class="object-contain w-44"
+            src="./img/YKTextBlack.png" alt="icon"></a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
@@ -53,49 +54,41 @@
         </ul>
       </div>
       <div class="navbar-end">
-        <a href="#"><button class="btn btn-primary flex font-fredoka">Administrateur</button></a>
+        <a href="./pages/recherche.html"><button class="btn btn-primary flex font-fredoka">Rechercher</button></a>
       </div>
     </div>
   </header>
-
   <!--=============== MAIN ===============-->
   <section>
-    <div class="hero min-h-screen" style="background-image: url(../img/BgBookIA.png);">
-      <div class="hero-content flex-col lg:flex-row-reverse">
-        <div class="text-center lg:text-left">
-          <h1 class="text-5xl font-fredoka text-black">Connectez-vous dès maintenant en tant qu'administrateur!</h1>
-          <p class="py-6 font-rubik text-black text-xl">Le compte vous permet d'avoir accès à la gestion des comptes.</p>
-        </div>
-        <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <div class="card-body">
-            <form action="#" method="post">
-                <div class="form-control">
-                <label class="label">
-                    <span class="label-text font-fredoka">Email</span>
-                </label>
-                <input type="text" placeholder="email" class="input input-bordered font-rubik" />
-                </div>
-                <div class="form-control">
-                <label class="label">
-                    <span class="label-text font-fredoka">Mot de passe</span>
-                </label>
-                <input type="password" placeholder="mot de passe" class="input input-bordered font-rubik" />
-                <label class="label">
-                    <a href="#" class="label-text-alt link link-hover font-fredoka">Mot de passe oublié ?</a>
-                </label>
-                </div>
-                <div class="form-control mt-6">
-                <input class="btn btn-primary font-fredoka" type="submit" value="ConnexionAdmin"></input>
-                </div>
-            </form>
-            <div class="pt-8">
+    <div class="hero min-h-screen" style="background-image: url(./img/BgBookIA.png);">
+      <section>
+        <div>
+          <div class="animated-title">
+            <div class="text-top">
+              <div class="font-fredoka">
+                <span>Votre base de</span>
+                <span>Connaissance</span>
+              </div>
+            </div>
+            <div class="text-bottom">
+              <div class="font-fredoka">YourKnowledge</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <div class="hero-overlay bg-opacity-0"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md mt-60">
+          <p class="mb-5 text-xl font-rubik text-black">Bienvenue sur la base de connaissance de G4, elle permettra à
+            vous même
+            d'apporter réponse au problème que vous rencontrez.</p>
+          <a href="./pages/inscription.html"><button class="btn btn-primary font-fredoka">Inscription</button></a>
+          <a href="./pages/authentification.html"><button class="btn btn-primary font-fredoka">Connexion</button></a>
         </div>
       </div>
     </div>
   </section>
-
   <!--=============== FOOTER ===============-->
   <footer class="footer p-10 bg-base-100 text-base-content">
     <div>
@@ -121,8 +114,8 @@
   </footer>
   <footer class="footer px-10 py-4 border-t bg-base-100 text-base-content border-base-300">
     <div class="items-center grid-flow-col">
-      <a class="btn btn-ghost normal-case text-xl" href="../index.html"><img class="object-contain w-44"
-          src="../img/YKTextBlack.png" alt="icon"></a>
+      <a class="btn btn-ghost normal-case text-xl" href="./index.html"><img class="object-contain w-44"
+          src="./img/YKTextBlack.png" alt="icon"></a>
       <p class="font-rubik">YourKnowledge. ProtechCompany.<br>Providing reliable tech since 2022</p>
     </div>
     <div class="md:place-self-center md:justify-self-end">

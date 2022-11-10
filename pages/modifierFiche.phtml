@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--=============== CSS ===============-->
-  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="stylesheet" href="../dist/output.css">
 
   <!--=============== FONT ===============-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +22,8 @@
   <!--=============== ??? ===============-->
 
   <!--=============== TITLE ===============-->
-  <link rel="icon" href="../img/YKNoText.png" />
-  <title>YourKnoledge - Fiche</title>
+  <link rel="icon" href="./img/YKNoText.png" />
+  <title>YourKnoledge - Home</title>
 </head>
 
 <body>
@@ -53,66 +53,48 @@
         </ul>
       </div>
       <div class="navbar-end">
-        <a href="./recherche.html"><button class="btn btn-primary flex font-fredoka">Rechercher</button></a>
+        <a href="../pages/recherche.html"><button class="btn btn-primary flex font-fredoka">Rechercher</button></a>
       </div>
     </div>
-    <div class="divider"></div>
   </header>
   <!--=============== MAIN ===============-->
   <section>
-    <div class="tabs flex justify-center">
-      <a id="1" class="tab tab-lg tab-bordered font-fredoka" href="./tab_admin1.html">Idées proposés</a> 
-      <a id="2" class="tab tab-lg tab-bordered font-fredoka" href="./tab_admin2.html">Commentaires signalés</a> 
-      <a id="3" class="tab tab-lg tab-bordered font-fredoka" href="./tab_admin3.html">Fiches signalés</a>
-      <a id="4" class="tab tab-lg tab-bordered font-fredoka" href="./tab_admin4.html">Liste de comptes</a>
-      <a id="5" class="tab tab-lg tab-bordered font-fredoka" href="./tab_admin5.html">Comptes à validés</a>
-      <a id="6" class="tab tab-lg tab-bordered font-fredoka tab-active" href="./tab_admin6.html">Liste des catégoriess</a>
-    </div>
-  </section>
-
-  <section>
-    <div class="overflow-x-auto">
-      <table class="table w-full">
-        <thead>
-          <tr>
-            <th></th>
-            <th class="font-fredoka">Nom</th>
-            <th class="font-fredoka">Prénom</th>
-            <th class="font-fredoka">Username</th>
-            <th class="font-fredoka">Email</th>
-            <th class="font-fredoka">Modification</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- row 1 -->
-          <tr class="hover">
-            <td></td>
-            <td class="font-rubik">JACQUOT</td>
-            <td class="font-rubik">Quoc-Thai</td>
-            <td class="font-rubik">No1ceTea</td>
-            <td class="font-rubik">jacquot.thai@gmail.com</td>
-            <td><button class="btn btn-xs btn-primary font-rubik">Bannir</button><button class="btn btn-xs btn-primary font-rubik">Modérer</button><button class="btn btn-xs btn-primary font-rubik">Modifier</button></td>
-          </tr>
-          <!-- row 2 -->
-          <tr class="hover">
-            <td></td>
-            <td class="font-rubik">JACQUOT</td>
-            <td class="font-rubik">Quoc-Thai</td>
-            <td class="font-rubik">No1ceTea</td>
-            <td class="font-rubik">jacquot.thai@gmail.com</td>
-            <td><button class="btn btn-xs btn-primary font-rubik">Bannir</button><button class="btn btn-xs btn-primary font-rubik">Modérer</button><button class="btn btn-xs btn-primary font-rubik">Modifier</button></td>
-          </tr>
-          <!-- row 3 -->
-          <tr class="hover">
-            <td></td>
-            <td class="font-rubik">JACQUOT</td>
-            <td class="font-rubik">Quoc-Thai</td>
-            <td class="font-rubik">No1ceTea</td>
-            <td class="font-rubik">jacquot.thai@gmail.com</td>
-            <td><button class="btn btn-xs btn-primary font-rubik">Bannir</button><button class="btn btn-xs btn-primary font-rubik">Modérer</button><button class="btn btn-xs btn-primary font-rubik">Modifier</button></td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="hero min-h-screen" style="background-color: #46a7d6;">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="text-center lg:text-left">
+          <h1 class="text-5xl font-fredoka">Modifier votre propre fiche</h1>
+        </div>
+        <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+          <div class="card-body">
+            <form action="#" method="POST">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-fredoka">Titre</span>
+                </label>
+                <input type="text" placeholder="Titre de la fiche" class="input input-bordered" />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-fredoka">Votre problème</span>
+                </label>
+                <input type="text" placeholder="Votre problème" class="input input-bordered" />
+              </div>
+              <br>
+              <select class="select w-full max-w-xs">
+                <option disabled selected>Catégorie</option>
+                <option value="c1">c1</option>
+                <option value="c2">c2</option>
+                <option value="c3">c3</option>
+                <option value="c4">c4</option>
+                <option value="c5">c5</option>
+              </select>
+              <div class="form-control mt-6">
+                <input class="btn btn-primary" type="submit" value="Modifier">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!--=============== FOOTER ===============-->
@@ -176,8 +158,6 @@
     </div>
   </footer>
 
-  <!--=============== MAIN JS ===============-->
-  <script src="../src/app.js"></script>
 </body>
 
 </html>
