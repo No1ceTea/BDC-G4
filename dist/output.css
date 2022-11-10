@@ -8892,11 +8892,11 @@ html {
   animation-fill-mode: forwards;
   bottom: 0;
   transform: translate(0, 100%);
-  color: #000000;
+  color: #FFF;
 }
 
 .animated-title > div.text-top div span:first-child {
-  color: #000000;
+  color: rgb(39, 68, 108);
 }
 
 .animated-title > div.text-bottom {
