@@ -60,12 +60,59 @@
   </header>
   <!--=============== MAIN ===============-->
   <section>
-    <div class="">
-      <div class="tabs">
-        <a class="tab tab-bordered">Tab 1</a> 
-        <a class="tab tab-bordered tab-active" href="#">Tab 2</a> 
-        <a class="tab tab-bordered">Tab 3</a>
-      </div>
+    <div class="tabs flex justify-center">
+      <a id="1" class="tab tab-lg tab-bordered font-fredoka">Idées proposés</a> 
+      <a id="2" class="tab tab-lg tab-bordered font-fredoka">Commentaires signalés</a> 
+      <a id="3" class="tab tab-lg tab-bordered font-fredoka tab-active">Fiches signalés</a>
+      <a id="4" class="tab tab-lg tab-bordered font-fredoka">Liste de comptes</a>
+      <a id="5" class="tab tab-lg tab-bordered font-fredoka">Comptes à validés</a>
+      <a id="6" class="tab tab-lg tab-bordered font-fredoka">Liste des catégoriess</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="overflow-x-auto">
+      <table class="table w-full">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="font-fredoka">Nom</th>
+            <th class="font-fredoka">Prénom</th>
+            <th class="font-fredoka">Username</th>
+            <th class="font-fredoka">Email</th>
+            <th class="font-fredoka">Modification</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- row 1 -->
+          <tr class="hover">
+            <td></td>
+            <td class="font-rubik">JACQUOT</td>
+            <td class="font-rubik">Quoc-Thai</td>
+            <td class="font-rubik">No1ceTea</td>
+            <td class="font-rubik">jacquot.thai@gmail.com</td>
+            <td><button class="btn btn-xs btn-primary font-rubik">Bannir</button><button class="btn btn-xs btn-primary font-rubik">Modérer</button><button class="btn btn-xs btn-primary font-rubik">Modifier</button></td>
+          </tr>
+          <!-- row 2 -->
+          <tr class="hover">
+            <td></td>
+            <td class="font-rubik">JACQUOT</td>
+            <td class="font-rubik">Quoc-Thai</td>
+            <td class="font-rubik">No1ceTea</td>
+            <td class="font-rubik">jacquot.thai@gmail.com</td>
+            <td><button class="btn btn-xs btn-primary font-rubik">Bannir</button><button class="btn btn-xs btn-primary font-rubik">Modérer</button><button class="btn btn-xs btn-primary font-rubik">Modifier</button></td>
+          </tr>
+          <!-- row 3 -->
+          <tr class="hover">
+            <td></td>
+            <td class="font-rubik">JACQUOT</td>
+            <td class="font-rubik">Quoc-Thai</td>
+            <td class="font-rubik">No1ceTea</td>
+            <td class="font-rubik">jacquot.thai@gmail.com</td>
+            <td><button class="btn btn-xs btn-primary font-rubik">Bannir</button><button class="btn btn-xs btn-primary font-rubik">Modérer</button><button class="btn btn-xs btn-primary font-rubik">Modifier</button></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
   <!--=============== FOOTER ===============-->
@@ -130,7 +177,7 @@
   </footer>
 
   <!--=============== MAIN JS ===============-->
-  <script src="./src/app.js"></script>
+  <script src="../src/app.js"></script>
 </body>
 
 </html>
