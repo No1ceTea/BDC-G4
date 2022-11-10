@@ -7156,10 +7156,6 @@ html {
   display: none;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
 .h-full {
   height: 100%;
 }
@@ -7176,16 +7172,12 @@ html {
   width: 11rem;
 }
 
-.w-5 {
-  width: 1.25rem;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-52 {
   width: 13rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .w-full {
@@ -8245,10 +8237,6 @@ html {
 .object-scale-down {
   -o-object-fit: scale-down;
      object-fit: scale-down;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .p-2 {
